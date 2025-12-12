@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="js/portada/script_portada.mjs"></script>
+    <title>Portada Web</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #4c6ef5, #15aabf);
+            margin: 0;
+            text-align: center;
+            color: white;
+        }
+
+        header {
+            padding: 40px 20px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.2rem;
+        }
+
+        button {
+            margin-top: 30px;
+            padding: 12px 25px;
+            font-size: 1rem;
+            border: none;
+            border-radius: 6px;
+            background: #fff;
+            color: #333;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background: #e9ecef;
+        }
+
+        #mensaje {
+            margin-top: 25px;
+            font-size: 1.3rem;
+            opacity: 0;
+            transition: opacity 0.5s;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Bienvenido a Mi Web</h1>
+        <p>Esta es una portada sencilla con HTML y JavaScript básico</p>
+        <button onclick="mostrarMensaje()">Haz clic aquí</button>
+        <div id="mensaje"></div>
+    </header>
+</body>
+</html>

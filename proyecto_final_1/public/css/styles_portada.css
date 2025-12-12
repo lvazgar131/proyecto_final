@@ -1,0 +1,384 @@
+:root{
+    color: white;
+    font-size: 14px;
+    height: auto;
+}
+
+
+body {
+    color:"white";
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    height: 97vh;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Fakediv y contenido en columna */
+    flex-grow: 1; /* OJO, importatne porque Asegura que el contenido principal llene el espacio disponible */
+}
+
+
+.father {
+    flex-grow: 1; /* Idem */
+    display: flex;
+    align-items: center;
+}
+
+
+.fakediv {
+    height: 3vh;
+    width: 99vw;
+    background-color: #000000;
+    border-top: 0.1rem solid gray;
+    
+
+}
+
+
+
+
+#div_separar_iniciar{
+    display: flex;
+    justify-content: space-evenly;
+    margin:auto;
+    flex-grow:1;
+}
+
+
+
+#div_iniciar1{
+    margin-top:9vh;
+    height: 25rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+/* div imagenes portada */
+#images_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 15px; /* Redondeamos las esquinas aquí */
+    background: linear-gradient(30deg, #165bfb, #acc5e1);
+    cursor: pointer;
+}
+
+
+#imagenes_portada_saladillo{
+    padding-top: 0.4rem;
+    width: 5rem;
+    object-fit: contain;
+    margin:auto;
+    margin-right: 0.5rem;
+}
+
+
+#span1{
+    font-family: "Nova Flat";
+}
+
+
+#span2{
+    font-family: "Arial";
+}
+
+
+
+
+/* div imagenes portada */
+
+
+
+#div_iniciar2{
+    max-width: 30rem;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+
+.botones {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20rem;
+}
+
+
+
+/* esto es el stilo para el primer botón */
+.buttonClass1{
+    background-color: white;
+    color: black;
+    padding: 0.625rem;
+    width: 100%;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    margin-bottom: 0.75rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* esto es eñ estilo para el segundo boton */
+.buttonClass2{
+    background-color: rgb(73, 152, 255);
+    color: white;
+    padding: 0.625rem;
+    width: 100%;
+    border: none;
+    border-radius: 1rem;
+    margin-bottom: 0.25rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
+.fakediv_2 {
+    height: 3vh;
+    width: 99vw;
+    background-color: #000000;
+    border-bottom: 0.1rem solid gray;
+
+}
+
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 15px;
+    font-size: 0.8rem;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  nav a:hover {
+    background-color: #575757;
+  }
+
+
+
+@keyframes aparicion {
+    0% {
+        opacity:0; /* Escala de 0% */
+    }
+    100% {
+        opacity:1; /* Escala de 100% */
+    }
+}
+
+
+.separator {
+    height: 0.1rem;
+    width: 100%;
+    background-color: #ccc;
+    width: 20rem;
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+
+
+
+a{
+    color: blue;
+    color:white;
+    text-decoration: none;
+    
+}
+
+p{
+    color:white
+}
+
+
+#letrero>h1{
+    font-size: 4.5rem;
+    margin-bottom: 3rem;
+    font-style:normal
+}
+
+h1{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color:white;
+}
+
+.font-1 {
+    font-family: "Ga Maamli";/* Tipografía 1 */
+    color:white
+}
+
+.font-2 {
+    font-family: 'Arial', monospace; /* Tipografía 2 */
+    color:white
+}
+
+.font-3 {
+    font-family: 'Verdana', sans-serif; /* Tipografía 3 */
+    color: #007bff; /* Puedes cambiar el color si deseas */
+    color:white
+}
+
+.font-4 {
+    font-family: 'Tektur', sans-serif; /* Tipografía 3 */
+    color: #007bff; /* Puedes cambiar el color si deseas */
+    color:white
+}
+
+.font-5 {
+    font-family: 'Cormorant SC', sans-serif; /* Tipografía 3 */
+    color: #007bff; /* Puedes cambiar el color si deseas */
+    color:white
+}
+
+/*Estilos de elementos creados dinamicamente en js*/
+/*Estilos de elementos creados dinamicamente en js*/
+/*Estilos de elementos creados dinamicamente en js*/
+
+
+.separatorlongbars_2{
+
+    display:none
+}
+
+
+
+#div_absolute_poppup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 20rem;
+}
+
+#loginForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem; /* Espaciado entre los elementos */
+}
+
+/*Le damos ancho de 100% a los inputs*/
+.form-group input {
+    font-weight: bold;
+    text-align: center;
+    border: 0.1rem solid #d2d2d2;
+    font-size: 1.1rem;
+    height: 1.5rem;
+    width: 20rem;
+}
+input::placeholder {
+    text-align: center;
+    color: #aaa;
+    font-weight: normal;
+    
+}
+
+
+form button {
+    background-color: #007BFF;
+    color: white;
+    padding: 0.625rem;
+    border: none;
+    border-radius: 0.3125rem;
+    cursor: pointer;
+    margin-bottom: 1.25rem;
+    font-size: 1.1rem;
+    width: 20rem;
+}
+
+
+
+.loader {
+  border: 4px solid #f3f3f3; /* Gris claro */
+  border-top: 4px solid #3498db; /* Azul */
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 1s linear infinite;
+  margin: 10px auto; /* Centrado */
+}
+
+
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+/*Estilos de elementos creados dinamicamente en js*/
+/*Estilos de elementos creados dinamicamente en js*/
+/*Estilos de elementos creados dinamicamente en js*/
+
+
+
+
+
+@media (max-width: 730px) {
+    #div_separar_iniciar {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto;
+      gap: 16px; /* Opcional: para añadir espacio entre los divs */
+      margin-top: 0px;
+    }
+    body{
+        font-size: 18px;
+    }
+
+    .separatorlongbars_2{
+        height: 0.1rem;
+        width: 80vw;
+        background-color: #ccc;
+        top:1%;
+        margin:auto;
+        margin-top: 8vh;
+        display:block
+    }
+    #div_iniciar1{
+        margin-top: 0px;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    
+    #div_iniciar2{
+        margin: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    
+  }
